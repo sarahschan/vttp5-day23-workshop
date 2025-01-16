@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Not Found</title>
+</head>
+<body>
+    
+    <h1>Order Not Found</h1>
+
+    <p>Order ID #<span th:text="${orderId}"></span> not found in database</p>
+
+    <br>
+    
+    <a th:href="@{/order}">Search another order</a>
+    
+</body>
+</html>
